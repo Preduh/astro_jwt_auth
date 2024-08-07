@@ -20,16 +20,16 @@ export const onRequest = defineMiddleware(async ({ cookies, url, redirect, local
       return redirect("/login")
     }
 
-    // const response = await fetch("https://dummyjson.com/auth/me", {
-    //   method: "GET",
-    //   headers: {
-    //     Authorization: `Bearer ${token}`,
-    //   },
-    // })
+    const response = await fetch("https://dummyjson.com/auth/me", {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
 
-    // const data: CurrentUser = await response.json()
+    const data: CurrentUser = await response.json()
 
-    // locals.user = data
+    locals.user = data
   }
 
   return next()

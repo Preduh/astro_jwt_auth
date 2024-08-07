@@ -27,7 +27,7 @@ export const POST: APIRoute = async ({ cookies, redirect }) => {
 
   if (response.ok) {
     cookies.set("astro_jwt_auth.token", data.token, {
-      maxAge: 300,
+      maxAge: 30,
       path: "/",
     })
 
