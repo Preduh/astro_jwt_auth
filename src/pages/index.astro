@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets"
+import Base from "../layouts/Base.astro"
+
+const user = Astro.locals.user
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <Base>
+      <h1>Welcome {user.firstName}</h1>
+      <Image src={user.image} alt="User image" inferSize format="png" />
+      <a href="/login">Login</a>
+    </Base>
+  </body>
+</html>
