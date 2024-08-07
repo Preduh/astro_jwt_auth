@@ -15,9 +15,11 @@ const user = Astro.locals.user
   </head>
   <body>
     <Base>
-      <h1>Welcome {user?.firstName}</h1>
-      {user ? <Image src={user.image} alt="User image" inferSize format="png" /> : <></>}
-      <a href="/login">Login</a>
+			<div class="w-full h-full bg-zinc-900 text-white">
+				<h1>Welcome {user?.firstName}</h1>
+				{user ? <Image src={user.image} alt="User image" inferSize format="png" /> : <></>}
+				<a href="/login">Login</a>
+			</div>
     </Base>
   </body>
 </html>

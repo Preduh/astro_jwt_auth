@@ -14,7 +14,7 @@ const POST = async ({ cookies, redirect }) => {
   const data = await response.json();
   if (response.ok) {
     cookies.set("astro_jwt_auth.token", data.token, {
-      maxAge: 300,
+      maxAge: 30,
       path: "/"
     });
     return redirect("/");

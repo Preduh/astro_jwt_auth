@@ -1,7 +1,7 @@
 import { renderers } from './renderers.mjs';
-import { e as ensure404Route, d as default404Instance, D as DEFAULT_404_ROUTE, m as manifest } from './chunks/_@astrojs-manifest_gJ5FOy1W.mjs';
+import { e as ensure404Route, d as default404Instance, D as DEFAULT_404_ROUTE, m as manifest } from './chunks/_@astrojs-manifest_CJXDMim3.mjs';
 import { A as AstroError, q as i18nNoLocaleFoundInPath, s as appendForwardSlash, t as joinPaths, u as MiddlewareNoDataOrNextCalled, v as MiddlewareNotAResponse, G as GetStaticPathsRequired, w as InvalidGetStaticPathsReturn, x as InvalidGetStaticPathsEntry, y as GetStaticPathsExpectedParams, z as GetStaticPathsInvalidRouteParam, B as trimSlashes, P as PageNumberParamNotFound, C as NoMatchingStaticPathFound, H as PrerenderDynamicEndpointPathCollide, J as ReservedSlotName, L as LocalsNotAnObject, K as PrerenderClientAddressNotAvailable, Q as ClientAddressNotAvailable, S as StaticClientAddressNotAvailable, T as RewriteWithBodyUsed, U as AstroResponseHeadersReassigned, R as ResponseSentError, V as fileExtension, W as slash, X as prependForwardSlash, Y as removeTrailingForwardSlash } from './chunks/astro/assets-service_g-g3lz6v.mjs';
-import { R as ROUTE_TYPE_HEADER, g as REROUTE_DIRECTIVE_HEADER, h as createSlotValueFromString, r as renderTemplate, a as renderComponent, D as DEFAULT_404_COMPONENT, i as renderSlotToString, j as renderJSX, k as chunkToString, l as isRenderInstruction, n as clientLocalsSymbol, o as clientAddressSymbol$1, A as ASTRO_VERSION, p as responseSentSymbol, q as renderPage, t as REWRITE_DIRECTIVE_HEADER_KEY, u as REWRITE_DIRECTIVE_HEADER_VALUE, v as renderEndpoint, w as REROUTABLE_STATUS_CODES } from './chunks/astro/server_DMt10Gl9.mjs';
+import { R as ROUTE_TYPE_HEADER, g as REROUTE_DIRECTIVE_HEADER, h as createSlotValueFromString, r as renderTemplate, a as renderComponent, D as DEFAULT_404_COMPONENT, i as renderSlotToString, j as renderJSX, k as chunkToString, l as isRenderInstruction, n as clientLocalsSymbol, o as clientAddressSymbol$1, A as ASTRO_VERSION, p as responseSentSymbol, q as renderPage, t as REWRITE_DIRECTIVE_HEADER_KEY, u as REWRITE_DIRECTIVE_HEADER_VALUE, v as renderEndpoint, w as REROUTABLE_STATUS_CODES } from './chunks/astro/server_BcXQoLC4.mjs';
 import 'cookie';
 import { A as AstroCookies, s as sequence, d as defineMiddleware, o as onRequest } from './chunks/_astro-internal_middleware_B7CjURZa.mjs';
 import { bold, red, yellow, dim, blue } from 'kleur/colors';
@@ -2412,7 +2412,7 @@ const _manifest = Object.assign(manifest, {
     middleware: onRequest
 });
 const _args = {
-    "middlewareSecret": "526da609-61f9-4e3f-ac5d-0ad1fc882d42",
+    "middlewareSecret": "befa2198-0ef1-4afe-852c-2d049fb45c27",
     "skewProtection": false
 };
 const _exports = createExports(_manifest, _args);
